@@ -5,7 +5,7 @@ export default function WellowAtWork() {
   return (
     <>
       <div className=" w-9/12 m-auto my-40">
-        <h1 className="text-[38px] font-Poppins-Bold text-center">
+        <h1 className="text-[38px] font-ProximaNova-Bold text-center">
           Wellows at work
         </h1>
 

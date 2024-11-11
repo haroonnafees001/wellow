@@ -9,7 +9,7 @@ export default function Card() {
           <Image src={web_assets + "icons/1.svg"} width={58} height={58} />
         </div>
 
-        <h1 className="text-[24px] mt-5 font-Poppins-Bold">Opeations</h1>
+        <h1 className="text-[24px] mt-5 font-ProximaNova-Heavy">Opeations</h1>
         <p className="text-[#878787] text-[18px]  mt-5">
           Competitive Insights in a Snap: See what your competitors are up to
           and find gaps to own the market.

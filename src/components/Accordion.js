@@ -13,8 +13,8 @@ const AccordionItem = ({ title, children, isOpen, onClick }) => (
     >
       <span className="text-lg font-bold">{title}</span>
     <div 
-    className={`w-[60px] h-[60px] transition-transform duration-300 bg-white text-purple-800 rounded-full shadow-md flex justify-center align-center ${
-        isOpen ? 'transform rotate-180 bg-purple-800 text-white' : ''
+    className={`w-[60px] h-[60px] transition-transform duration-300  text-purple-800 rounded-full shadow-md flex justify-center align-center ${
+        isOpen ? 'transform rotate-180 bg-purple-800 text-white' : 'bg-white'
       }`}
       > 
       <svg

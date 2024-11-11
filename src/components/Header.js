@@ -22,25 +22,25 @@ export default function Header() {
             <div className="headerLinks flex items-center justify-center gap-12">
               <Link
                 href={"/"}
-                className="text-base text-black font-Poppins-Regular"
+                className="text-base text-black font-ProximaNova-Regular"
               >
                 How it works
               </Link>
               <Link
                 href={"/about"}
-                className="text-base text-black font-Poppins-Regular"
+                className="text-base text-black font-ProximaNova-Regular"
               >
                 Integrations
               </Link>
               <Link
                 href={"#"}
-                className="text-base text-black font-Poppins-Regular"
+                className="text-base text-black font-ProximaNova-Regular"
               >
                 Use cases
               </Link>
               <Link
                 href={"#"}
-                className="text-base text-black font-Poppins-Regular"
+                className="text-base text-black font-ProximaNova-Regular"
               >
                 Community
               </Link>
@@ -49,7 +49,7 @@ export default function Header() {
           <div className="w-2/12 float-right text-right pr-6  h-[64px] flex items-center justify-end">
             <div>
               <button
-                className="text-sm font-Poppins-Bold bg-color-purple text-white hover:opacity-85 hover:text-white rounded-[50px]  w-[185px] h-[51px] 
+                className="text-sm font-ProximaNova-Bold bg-color-purple text-white hover:opacity-85 hover:text-white rounded-[50px]  w-[185px] h-[51px] 
    transform transition ease-in-out duration-400   disabled:text-white disabled:cursor-not-allowed disabled:opacity-25 disabled:bg-slate-700 disabled:border-slate-700 disabled:hover:text-white"
            
               >

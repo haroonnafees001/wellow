@@ -7,7 +7,7 @@ export default function BookAnAppointment() {
       <div className="border border-2 border-color-purple flex rounded-[30px] w-[827px] p-8 m-auto items-center">
         <div className="w-7/12">
             <b className="text-[24px]">Want a Customise use case for you?</b> <br/>
-            <button className="box-content px-10 mt-5 text-sm  font-Poppins-Bold bg-color-purple text-white hover:opacity-85 hover:text-white rounded-[50px]  w-[185px] h-[51px]  transform transition ease-in-out duration-400   disabled:text-white disabled:cursor-not-allowed disabled:opacity-25 disabled:bg-slate-700 disabled:border-slate-700 disabled:hover:text-white">
+            <button className="box-content px-10 mt-5 text-sm  font-ProximaNova-Bold bg-color-purple text-white hover:opacity-85 hover:text-white rounded-[50px]  w-[185px] h-[51px]  transform transition ease-in-out duration-400   disabled:text-white disabled:cursor-not-allowed disabled:opacity-25 disabled:bg-slate-700 disabled:border-slate-700 disabled:hover:text-white">
             Book an appointment
             </button>
         </div>

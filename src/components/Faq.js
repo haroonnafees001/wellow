@@ -21,7 +21,7 @@ export default function Faq() {
   return (
     <>
       <div className=" w-[896px] m-auto mt-20">
-        <h1 className="text-[38px] font-Poppins-Bold text-center">
+        <h1 className="text-[38px] font-ProximaNova-Bold text-center">
           Frequently ask questions
         </h1>
 

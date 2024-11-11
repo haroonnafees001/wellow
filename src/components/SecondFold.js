@@ -10,7 +10,7 @@ export default function SecondFold() {
             <source src={web_assets + "promo.mp4"} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <p className="text-[38px] font-Poppins-Bold mb-20">
+          <p className="text-[38px] font-ProximaNova-Bold mb-20">
             All it takes, a simple prompt!
           </p>
         </div>

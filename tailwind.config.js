@@ -26,10 +26,9 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        "Poppins-Regular": ["Poppins-Regular"],
-        "Poppins-Medium": ["Poppins-Medium"],
-        "Poppins-Bold": ["Poppins-Bold"],
-        "Poppins-Heavy": ["Poppins-Heavy"],
+        "ProximaNova-Regular": ["ProximaNova-Regular"],
+        "ProximaNova-Bold": ["ProximaNova-Bold"],
+        "ProximaNova-Heavy": ["ProximaNova-Heavy"],
       },
       fontSize: {
         "tw-40": "2.5rem",
