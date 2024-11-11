@@ -5,20 +5,20 @@ export default function Header() {
   return (
     <>
       <div className="w-full">
-        <div className="flex items-center justify-between Mobile:h-full mt-5 px-10">
+        <div className="flex items-center justify-between Mobile:h-full mt-5 px-10 Mobile:p-0">
           <div
-            className={` w-[242px] pl-6 logo bg-white flex items-center h-[64px] `}
+            className={` w-[242px] pl-6 logo flex items-center h-[64px] `}
           >
             <Link href={"/"}>
               <Image
-                src={web_assets + "logo.png"}
+                src={web_assets + "logo.svg"}
                 width={106}
                 height={27}
                 alt={"Logo Image"}
               />
             </Link>
           </div>
-          <div className="w-6/12 logo  h-[64px] flex items-center justify-center">
+          <div className="w-6/12 logo  h-[64px] flex items-center justify-center Mobile:hidden">
             <div className="headerLinks flex items-center justify-center gap-12">
               <Link
                 href={"/"}

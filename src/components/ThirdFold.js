@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function ThirdFold() {
   return (
     <>
-      <div className=" w-[1112px] m-auto mt-20">
-        <div className="flex">
-            <div className="w-2/4">
+      <div className=" w-[1112px] m-auto mt-20 Mobile:w-full Mobile:p-10">
+        <div className="flex Mobile:flex-col">
+            <div className="w-2/4 Mobile:w-full">
             <Image
             src={web_assets + "frame.svg"}
             width={523}
@@ -14,7 +14,7 @@ export default function ThirdFold() {
             alt={""}
           />
             </div>
-            <div className="w-2/4 flex flex-col justify-center relative pl-32">
+            <div className="w-2/4 flex flex-col justify-center relative pl-32  Mobile:w-full Mobile:pl-0">
                     <h1 className="text-[38px] font-ProximaNova-Bold">Your Workflow, Integrated</h1>
                     <p className="text-[20px] mt-5">Wellows connects all your tools, tasks, and updates in one place – say goodbye to the chaos and keep every project running smoothly.</p>
                     <button

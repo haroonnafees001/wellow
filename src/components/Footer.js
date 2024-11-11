@@ -5,11 +5,11 @@ export default function Footer() {
   return (
     <>
       <div className="w-full py-10 relative ">
-        <div className="flex items-center justify-between Mobile:h-full mt-5 px-10">
-          <div className={` w-1/2 pl-6 logo bg-white  h-[64px] `}>
+        <div className="flex items-center justify-between Mobile:h-auto mt-5 px-10 Mobile:p-0 Mobile:flex-col Mobile:justify-center">
+          <div className={` w-1/2 pl-6 logo h-[64px] Mobile:pl-0 Mobile:w-full Mobile:items-center Mobile:justify-center Mobile:flex Mobile:flex-col `}>
             <Link href={"/"}>
               <Image
-                src={web_assets + "logo.png"}
+                src={web_assets + "logo.svg"}
                 width={106}
                 height={27}
                 alt={"Logo Image"}
@@ -39,7 +39,7 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="w-1/2 float-right text-right pr-6  h-[64px] flex items-center justify-end">
+          <div className="w-1/2 float-right text-right pr-6  h-[64px] flex items-center justify-end Mobile:float-none Mobile:w-full Mobile:h-auto Mobile:mt-5 Mobile:text-center Mobile:justify-center">
             <div>
               <button
                 className="text-sm font-ProximaNova-Bold bg-color-purple text-white hover:opacity-85 hover:text-white rounded-[50px]  w-[185px] h-[51px] 

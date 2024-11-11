@@ -4,12 +4,12 @@ import BookAnAppointment from "./card/BookAnAppointment";
 export default function WellowAtWork() {
   return (
     <>
-      <div className=" w-9/12 m-auto my-40">
+      <div className=" w-9/12 m-auto my-40 Mobile:w-full">
         <h1 className="text-[38px] font-ProximaNova-Bold text-center">
           Wellows at work
         </h1>
 
-        <div className="flex justify-around mt-5">
+        <div className="flex justify-around mt-5 Mobile:flex-col">
           <Card />
           <Card />
           <Card />
