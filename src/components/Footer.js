@@ -4,7 +4,7 @@ import { web_assets } from "@/utils/constants";
 export default function Footer() {
   return (
     <>
-      <div className="w-full py-10">
+      <div className="w-full py-10 relative ">
         <div className="flex items-center justify-between Mobile:h-full mt-5 px-10">
           <div className={` w-1/2 pl-6 logo bg-white  h-[64px] `}>
             <Link href={"/"}>

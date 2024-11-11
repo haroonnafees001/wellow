@@ -23,8 +23,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+     --background: #ffffff;
+  --foreground: #171717;
   }
 }
 
@@ -35,3 +35,13 @@ body {
 
 }
 
+.blur{
+  background-image: url("/assets/images/blur.svg");
+  height: 422px;
+  width: 613px;
+  background-position: bottom right;
+  background-size: cover;
+  position: absolute;
+  bottom: -150px;
+  right: 0;
+}
