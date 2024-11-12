@@ -15,7 +15,7 @@ export default function ThirdFold() {
                     alt={"IntegerationLeft"}
                   />
           </div>
-          <div className="w-2/6 flex flex-col justify-center items-center relative Mobile:w-full Mobile:pl-0 wellowBg">
+          <div className="w-2/6 flex flex-col justify-center items-center relative Mobile:w-full Mobile:pl-0 wellowBg text-center">
             <h1 className="text-[38px] font-ProximaNova-Bold">
               Your Workflow, Integrated
             </h1>

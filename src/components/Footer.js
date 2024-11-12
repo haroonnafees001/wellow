@@ -5,7 +5,7 @@ import Button from "./Button";
 export default function Footer() {
   return (
     <>
-      <div className="w-full py-10 relative ">
+      <div className="w-full py-10 relative  border-t">
         <div className="flex items-center justify-between Mobile:h-auto mt-5 px-10 Mobile:p-0 Mobile:flex-col Mobile:justify-center">
           <div className={` w-1/2 pl-6 logo h-[64px] Mobile:pl-0 Mobile:w-full Mobile:items-center Mobile:justify-center Mobile:flex Mobile:flex-col `}>
             <Link href={"/"}>
@@ -18,7 +18,7 @@ export default function Footer() {
             </Link>
             <p className="text-[14px] mt-4 flex font-ProximaNova-Regular">
               Connect with us
-              <span className="ml-12 flex">
+              <span className="ml-12 flex Mobile:ml-6">
                 <Link  href={"/"}>
                   <Image
                     src={web_assets + "icons/linkedIn.svg"}
@@ -40,8 +40,8 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="w-1/2 float-right text-right pr-6  h-[64px] flex items-center justify-end Mobile:float-none Mobile:w-full Mobile:h-auto Mobile:mt-5  Mobile:text-center Mobile:justify-center">
-            <div>
+          <div className="w-1/2 float-right text-right pr-6  h-[64px] flex items-center justify-end Mobile:float-none Mobile:w-full Mobile:h-auto Mobile:mt-5  Mobile:text-center Mobile:justify-center Mobile:w-full">
+            <div className="Mobile:flex Mobile:flex-col Mobile:items-center">
             <Button url="https://www.figma.com/design/4uySMqdnoGRwtZspZoHjrq/AI-Agent?node-id=40-68&node-type=canvas&t=2OdYBhUfyl8fMt37-0" btnText="Join Waitlist"/>
 
               <p className="text-[14px] mt-4">

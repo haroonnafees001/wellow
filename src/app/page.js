@@ -10,14 +10,17 @@ import WellowAtWork from "@/components/WellowAtWork";
 export default function Home() {
   return (
     <>
-     <Header/>
-     <FirstFold/>
-     <SecondFold/>
-     <ThirdFold/>
-     <WellowAtWork/>
-     <JoinCommunity/>
-     <Faq/>
-    <Footer/>
+      <Header />
+      <div className="Mobile:p-4">
+        <FirstFold />
+        <SecondFold />
+        <ThirdFold />
+        <WellowAtWork />
+        <JoinCommunity />
+        <Faq />
+      </div>
+
+      <Footer />
     </>
   );
 }
