@@ -19,7 +19,7 @@ export default function JoinCommunity() {
                 src={web_assets + "slack.gif"}
                 width={326}
                 height={183}
-                alt={""}
+                alt={"slack"}
               />
         </div>
 

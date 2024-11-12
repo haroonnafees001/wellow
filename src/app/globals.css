@@ -45,3 +45,13 @@ body {
   bottom: -150px;
   right: 0;
 }
+
+
+.wellowBg{
+  background-image: url("/assets/images/IntegerationBG.svg");
+  height: 422px;
+  width: 613px;
+  background-position: center -90px;
+  background-size: cover;
+
+}

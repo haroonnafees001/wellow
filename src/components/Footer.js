@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { web_assets } from "@/utils/constants";
+import Button from "./Button";
 export default function Footer() {
   return (
     <>
@@ -39,14 +40,10 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="w-1/2 float-right text-right pr-6  h-[64px] flex items-center justify-end Mobile:float-none Mobile:w-full Mobile:h-auto Mobile:mt-5 Mobile:text-center Mobile:justify-center">
+          <div className="w-1/2 float-right text-right pr-6  h-[64px] flex items-center justify-end Mobile:float-none Mobile:w-full Mobile:h-auto Mobile:mt-5  Mobile:text-center Mobile:justify-center">
             <div>
-              <button
-                className="text-sm font-ProximaNova-Bold bg-color-purple text-white hover:opacity-85 hover:text-white rounded-[50px]  w-[185px] h-[51px] 
-   transform transition ease-in-out duration-400   disabled:text-white disabled:cursor-not-allowed disabled:opacity-25 disabled:bg-slate-700 disabled:border-slate-700 disabled:hover:text-white"
-              >
-                Join Waitlist
-              </button>
+            <Button url="https://www.figma.com/design/4uySMqdnoGRwtZspZoHjrq/AI-Agent?node-id=40-68&node-type=canvas&t=2OdYBhUfyl8fMt37-0" btnText="Join Waitlist"/>
+
               <p className="text-[14px] mt-4">
                 © Copyright 2024. Wellows. All rights reserved.
               </p>
