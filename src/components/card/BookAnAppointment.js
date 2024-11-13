@@ -7,7 +7,7 @@ export default function BookAnAppointment() {
   return (
     <>
       <div className="border border-2 border-color-purple flex rounded-[30px] w-[827px] p-8 m-auto items-center Mobile:w-full Mobile:flex-col">
-        <div className="w-7/12 Mobile:w-full">
+        <div className="w-7/12 Mobile:w-full Mobile:text-center">
             <b className="text-[24px]">Want a Customise use case for you?</b> <br/>
            
             <CalendlyPopup url="https://calendly.com/shaheer-disrupt/wellows"/>
