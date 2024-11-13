@@ -3,9 +3,9 @@
 import { useState } from 'react';
 
 const AccordionItem = ({ title, children, isOpen, onClick }) => (
-  <div className={`my-10 p-8 rounded-[18px] shadow-[0_17px_16px_-9px_#e6e6e6] ${isOpen ? 'border-2 border-purple-800' : '' } `}>
+  <div className={`my-10 p-8 rounded-[18px] Mobile:p-5 shadow-[0_17px_16px_-9px_#e6e6e6] ${isOpen ? 'border-2 border-purple-800' : '' } `}>
     <button
-      className="w-full flex justify-between items-center focus:outline-none"
+      className="w-full flex justify-between items-center focus:outline-none mb-3"
       onClick={onClick}
       aria-expanded={isOpen}
       aria-controls={`accordion-content-${title}`}
@@ -13,12 +13,12 @@ const AccordionItem = ({ title, children, isOpen, onClick }) => (
     >
       <span className="text-lg font-bold">{title}</span>
     <div 
-    className={`w-[60px] h-[60px] transition-transform duration-300  text-purple-800 rounded-full shadow-md flex justify-center align-center ${
+    className={`w-[60px] h-[60px] transition-transform duration-300 Mobile:w-10  Mobile:h-10 text-purple-800 rounded-full shadow-md flex justify-center align-center ${
         isOpen ? 'transform rotate-180 bg-purple-800 text-white' : 'bg-white'
       }`}
       > 
       <svg
-        className={` w-[20px] ${
+        className={` w-[20px] Mobile:w-3 ${
         isOpen ? 'text-white' : 'text-purple'
       }`}
         fill="none"
