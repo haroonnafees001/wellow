@@ -1,5 +1,4 @@
 import { web_assets } from "@/utils/constants";
-import Image from "next/image";
 import Accordion from "./Accordion";
 
 export default function Faq() {
