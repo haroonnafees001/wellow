@@ -13,13 +13,18 @@ export default function Modal() {
     script.src =
       "https://app.viralsweep.com/vsa-widget-44e2ed-194592.js?sid=194592_292305"; // The external script URL
     script.async = true; // Load script asynchronously
-
-    // Append the script to the document body
-    document.body.appendChild(script);
+    const formElement = document.getElementById("vsscript_194592_292305");
+    if (formElement) {
+      document.body.appendChild(script);
+    }else{
+      console.log("error")
+    }
 
     // Clean up the script when the component unmounts
     return () => {
-      document.body.removeChild(script);
+      if(formElement){
+        document.body.removeChild(script);
+      }
     };
   }, [isOpen]);
   return (
@@ -43,7 +48,10 @@ transform transition ease-in-out duration-400   disabled:text-white disabled:cur
           ></div>
           <div className="fixed inset-0 flex items-center justify-center z-50 ">
             <div className="relative">
-              <button onClick={closeModal} className=" absolute right-10 top-10">
+              <button
+                onClick={closeModal}
+                className=" absolute right-10 top-10"
+              >
                 <svg
                   width="14"
                   height="14"
@@ -51,7 +59,7 @@ transform transition ease-in-out duration-400   disabled:text-white disabled:cur
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g clip-path="url(#clip0_843_3826)">
+                  <g clipPath="url(#clip0_843_3826)">
                     <path
                       d="M0.683722 14.0001C0.548501 14.0001 0.41631 13.96 0.30387 13.8849C0.191431 13.8098 0.103793 13.703 0.0520429 13.5781C0.000292829 13.4532 -0.0132448 13.3157 0.0131423 13.1831C0.0395295 13.0505 0.104656 12.9287 0.200284 12.8331L12.8331 0.200246C12.9613 0.0720308 13.1352 0 13.3165 0C13.4979 0 13.6718 0.0720308 13.8 0.200246C13.9282 0.328462 14.0002 0.50236 14.0002 0.683684C14.0002 0.865008 13.9282 1.03891 13.8 1.16712L1.16716 13.7999C1.10373 13.8635 1.02837 13.9139 0.945409 13.9482C0.862446 13.9826 0.773514 14.0002 0.683722 14.0001Z"
                       fill="#5D17E9"

@@ -28,7 +28,7 @@ export default function Header() {
                 How it works
               </Link>
               <Link
-                href={"/about"}
+                href={"/"}
                 className="text-base text-black font-ProximaNova-Regular"
               >
                 Integrations

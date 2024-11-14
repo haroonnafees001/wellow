@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'Mobile': {'min': '320px', 'max': '767px'},
+        'Mobile': {'min': '320px', 'max': '1023px'},
         'MobileLandscape': {'min': '665px', 'max': '896px'},
         'Tablet': {'min': '768px', 'max': '1023px'},
         'Ipad': {'min': '1024px', 'max': '1139px'},
