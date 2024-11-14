@@ -5,15 +5,14 @@ import Modal from "./Modal";
 export default function FirstFold() {
   return (
     <>
-      <div className="w-full h-[70vh] mt-10">
+      <div className="w-full h-[70vh] mt-20">
         <div className="flex items-center justify-center h-full flex-col text-center ">
         <video autoPlay muted loop width="auto">
             <source src={web_assets + "home.mp4"} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <p className="text-[24px] font-ProximaNova-Regular mt-4">
-          Your AI Agents on your finger tips. All it takes is a simple prompt.
-
+          Turn your natural language prompts into AI <br/> Agents that automate your workflows smoothly.
           </p>
           <div className="mt-5 flex flex-col items-center justify-center">
           <Modal></Modal>

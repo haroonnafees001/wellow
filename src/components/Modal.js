@@ -50,11 +50,11 @@ transform transition ease-in-out duration-400   disabled:text-white disabled:cur
             <div className="relative">
               <button
                 onClick={closeModal}
-                className=" absolute right-10 top-10"
+                className=" fixed right-7 top-5"
               >
                 <svg
-                  width="14"
-                  height="14"
+                  width="20"
+                  height="20"
                   viewBox="0 0 14 14"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"

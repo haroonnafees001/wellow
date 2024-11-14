@@ -5,7 +5,7 @@ import Modal from "./Modal";
 export default function Header() {
   return (
     <>
-      <div className="w-full  border-b">
+      <div className="w-full  border-b fixed top-0 z-10 bg-white">
         <div className="flex items-center justify-between Mobile:h-full mt-3 mb-3 px-10 Mobile:p-0">
           <div
             className={` w-[242px] pl-6 logo flex items-center h-[64px] `}
