@@ -20,8 +20,7 @@ export default function ThirdFold() {
               Your Workflow, Integrated
             </h1>
             <p className="text-[20px] mt-3 text-[#363744] text-center mb-7">
-              Wellows connects all your tools, tasks, and updates <br/> in one place –
-              say goodbye to the chaos and keep <br/> every project running smoothly.
+              Connect all your tools, tasks, and updates <br/>  in one place – say goodbye to the chaos and keep every project running smoothly.
             </p>
             <Modal/>
           </div>

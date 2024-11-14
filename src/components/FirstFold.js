@@ -12,12 +12,12 @@ export default function FirstFold() {
             Your browser does not support the video tag.
           </video>
           <p className="text-[24px] font-ProximaNova-Regular mt-4">
-            Meet Wellows that turns your natural language prompts into AI <br />
-            Agents that automate your workflows.
+          Your AI Agents on your finger tips. All it takes is a simple prompt.
+
           </p>
           <div className="mt-5 flex flex-col items-center justify-center">
           <Modal></Modal>
-            <p className="text-[16px] font-ProximaNova-Regular mt-4 flex">
+            {/* <p className="text-[16px] font-ProximaNova-Regular mt-4 flex">
               First 100 users get 3 months free
               <Image
                 className="rotate-[35deg] relative top-[-5px]"
@@ -26,7 +26,7 @@ export default function FirstFold() {
                 height={27}
                 alt={"animate"}
               />
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

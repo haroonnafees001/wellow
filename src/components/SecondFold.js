@@ -10,8 +10,8 @@ export default function SecondFold() {
             <source src={web_assets + "promo.mp4"} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <p className="text-[38px] font-ProximaNova-Bold mb-20">
-            All it takes, a simple prompt!
+          <p className="text-[38px] font-ProximaNova-Bold mb-20 relative top-[-60px] Mobile:top-0">
+          Get instant AI Agents at your service.
           </p>
         </div>
       </div>
