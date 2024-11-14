@@ -11,7 +11,7 @@ export default function WellowAtWork() {
           Wellows at work
         </h1>
 
-        <div className="flex justify-around mt-5 Mobile:flex-col">
+        <div className="flex justify-around mt-5 Mobile:flex-col" id="usecases">
           <div className="border border-2 border-color-purple rounded-[30px] w-1/3 p-6 mx-6 text-center Mobile:w-full Mobile:m-0 Mobile:mb-10">
             <div className="w-[114px] h-[114px] bg-white  flex justify-center items-center rounded-full m-auto shadow-gray-400 shadow-lg">
               <Image

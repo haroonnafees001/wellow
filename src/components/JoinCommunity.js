@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function JoinCommunity() {
   return (
     <>
-      <div className="flex w-9/12 h-[270px] p-8 m-auto justify-center my-10 bg-[#5d17e921] relative px-16 items-center Mobile:w-full Mobile:h-auto Mobile:flex-col">
+      <div id="slack" className="flex w-9/12 h-[270px] p-8 m-auto justify-center my-10 bg-[#5d17e921] relative px-16 items-center Mobile:w-full Mobile:h-auto Mobile:flex-col">
         <div className="w-7/12 Mobile:w-full">
           <b className="text-[38px]">Join the community now</b>
           <p className="text-[20px] text-color-[#363744]">

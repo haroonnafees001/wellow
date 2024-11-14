@@ -5,7 +5,7 @@ import Modal from "./Modal";
 export default function ThirdFold() {
   return (
     <>
-      <div className=" w-full m-auto mt-20 Mobile:w-full Mobile:p-10">
+      <div className=" w-full m-auto mt-20 Mobile:w-full Mobile:p-10" id="integration">
         <div className="flex Mobile:flex-col">
           <div className="w-2/6 flex flex-col justify-center relative Mobile:w-full Mobile:pl-0">
           <Image

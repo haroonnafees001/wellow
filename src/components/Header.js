@@ -22,25 +22,25 @@ export default function Header() {
           <div className="w-6/12 logo  h-[64px] flex items-center justify-center Mobile:hidden">
             <div className="headerLinks flex items-center justify-center gap-12">
               <Link
-                href={"/"}
+                href={"#hiw"}
                 className="text-base text-black font-ProximaNova-Regular"
               >
                 How it works
               </Link>
               <Link
-                href={"/"}
+                href={"#integration"}
                 className="text-base text-black font-ProximaNova-Regular"
               >
                 Integrations
               </Link>
               <Link
-                href={"#"}
+                href={"#usecases"}
                 className="text-base text-black font-ProximaNova-Regular"
               >
                 Use cases
               </Link>
               <Link
-                href={"#"}
+                href={"#slack"}
                 className="text-base text-black font-ProximaNova-Regular"
               >
                 Community

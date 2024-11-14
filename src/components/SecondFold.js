@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function SecondFold() {
   return (
     <>
-      <div className="w-full px-10 m-auto Mobile:w-full">
+      <div className="w-full px-10 m-auto Mobile:w-full" id="hiw">
         <div className="flex items-center justify-center h-full flex-col text-center ">
-          <video autoPlay muted loop width="100%">
+          <video autoPlay muted loop width="auto">
             <source src={web_assets + "promo.mp4"} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
