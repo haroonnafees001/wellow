@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function SecondFold() {
   return (
     <>
-      <div className="w-full px-10 m-auto Mobile:w-full" id="hiw">
+      <div className="w-full px-10 m-auto Mobile:w-full" id="how-it-work">
         <div className="flex items-center justify-center h-full flex-col text-center ">
           <video autoPlay muted loop width="auto" className="border-2 border-color-black/5 rounded-xl">
             <source src={web_assets + "promo.mp4"} type="video/mp4" />
