@@ -7,7 +7,7 @@ export default function FirstFold() {
     <>
       <div className="w-full h-[70vh] mt-10">
         <div className="flex items-center justify-center h-full flex-col text-center ">
-        <video autoPlay muted loop width="100%">
+        <video autoPlay muted loop width="auto">
             <source src={web_assets + "home.mp4"} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
