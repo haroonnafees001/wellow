@@ -1,6 +1,6 @@
 import { web_assets } from "@/utils/constants";
 import Image from "next/image";
-import Button from "./Button";
+import Modal from "./Modal";
 
 export default function FirstFold() {
   return (
@@ -16,8 +16,7 @@ export default function FirstFold() {
             Agents that automate your workflows.
           </p>
           <div className="mt-5 flex flex-col items-center justify-center">
-          <Button url="https://www.figma.com/design/4uySMqdnoGRwtZspZoHjrq/AI-Agent?node-id=40-68&node-type=canvas&t=2OdYBhUfyl8fMt37-0" btnText="Join Waitlist"/>
-
+          <Modal></Modal>
             <p className="text-[16px] font-ProximaNova-Regular mt-4 flex">
               First 100 users get 3 months free
               <Image

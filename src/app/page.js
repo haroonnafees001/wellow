@@ -7,7 +7,6 @@ import JoinCommunity from "@/components/JoinCommunity";
 import SecondFold from "@/components/SecondFold";
 import ThirdFold from "@/components/ThirdFold";
 import WellowAtWork from "@/components/WellowAtWork";
-import Script from "next/script";
 
 export default function Home() {
   return (
