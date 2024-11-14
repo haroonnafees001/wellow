@@ -25,7 +25,7 @@ export default function WellowAtWork() {
             <h1 className="text-[24px] mt-5 font-ProximaNova-Heavy">
             Marketing
             </h1>
-            <p className="text-[#878787] text-[18px] mt-8">
+            <div className="text-[#878787] text-[18px] mt-8">
               <ul className="text-left ml-4">
                 <li className="list-disc mb-4">
                   <b className="text-black">Quick Competitor Insights:</b> Analyze competitors and
@@ -40,7 +40,7 @@ export default function WellowAtWork() {
 
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
 
 
@@ -58,7 +58,7 @@ export default function WellowAtWork() {
             <h1 className="text-[24px] mt-5 font-ProximaNova-Heavy">
             Sales
             </h1>
-            <p className="text-[#878787] text-[18px] mt-8">
+            <div className="text-[#878787] text-[18px] mt-8">
               <ul className="text-left ml-4">
                 <li className="list-disc mb-4">
                   <b className="text-black">Smart Targeting:</b> Segment audiences and connect with precision.
@@ -71,7 +71,7 @@ export default function WellowAtWork() {
                   <b className="text-black">Automated Follow-Ups:</b> Keep leads engaged without the manual effort.
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
 
 
@@ -90,7 +90,7 @@ export default function WellowAtWork() {
             <h1 className="text-[24px] mt-5 font-ProximaNova-Heavy">
             Operations
             </h1>
-            <p className="text-[#878787] text-[18px] mt-8">
+            <div className="text-[#878787] text-[18px] mt-8">
               <ul className="text-left ml-4">
                 <li className="list-disc mb-4">
                   <b className="text-black">Streamlined Assistance:</b>Let AI handle scheduling and documentation.
@@ -106,7 +106,7 @@ export default function WellowAtWork() {
 
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
         </div>
         <div className="w-full mt-14">
