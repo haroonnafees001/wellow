@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { web_assets } from "@/utils/constants";
-import Button from "./Button";
+import Modal from "./Modal";
 export default function Footer() {
   return (
     <>
@@ -42,8 +42,7 @@ export default function Footer() {
 
           <div className="w-1/2 float-right text-right pr-6  h-[64px] flex items-center justify-end Mobile:float-none Mobile:w-full Mobile:h-auto Mobile:mt-5  Mobile:text-center Mobile:justify-center Mobile:w-full">
             <div className="Mobile:flex Mobile:flex-col Mobile:items-center">
-            <Button url="https://www.figma.com/design/4uySMqdnoGRwtZspZoHjrq/AI-Agent?node-id=40-68&node-type=canvas&t=2OdYBhUfyl8fMt37-0" btnText="Join Waitlist"/>
-
+            <Modal/>
               <p className="text-[14px] mt-4">
                 © Copyright 2024. Wellows. All rights reserved.
               </p>

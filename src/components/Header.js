@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { web_assets } from "@/utils/constants";
-import Button from "./Button";
 import Modal from "./Modal";
 export default function Header() {
   return (
@@ -50,7 +49,6 @@ export default function Header() {
           </div>
           <div className="w-2/12 float-right text-right pr-6  h-[64px] flex items-center justify-end">
             <div>
-                {/* <Button url="https://www.figma.com/design/4uySMqdnoGRwtZspZoHjrq/AI-Agent?node-id=40-68&node-type=canvas&t=2OdYBhUfyl8fMt37-0" btnText="Join Waitlist"/> */}
                 <Modal/>
           
             </div>

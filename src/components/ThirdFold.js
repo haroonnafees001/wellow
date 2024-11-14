@@ -1,6 +1,6 @@
 import { web_assets } from "@/utils/constants";
 import Image from "next/image";
-import Button from "./Button";
+import Modal from "./Modal";
 
 export default function ThirdFold() {
   return (
@@ -19,14 +19,11 @@ export default function ThirdFold() {
             <h1 className="text-[38px] font-ProximaNova-Bold">
               Your Workflow, Integrated
             </h1>
-            <p className="text-[20px] mt-3 text-[#363744] text-center">
+            <p className="text-[20px] mt-3 text-[#363744] text-center mb-7">
               Wellows connects all your tools, tasks, and updates <br/> in one place –
               say goodbye to the chaos and keep <br/> every project running smoothly.
             </p>
-            <Button customClass={'mt-7'}
-              url="https://www.figma.com/design/4uySMqdnoGRwtZspZoHjrq/AI-Agent?node-id=40-68&node-type=canvas&t=2OdYBhUfyl8fMt37-0"
-              btnText="Join Waitlist"
-            />
+            <Modal/>
           </div>
           <div className="w-2/6 flex justify-end relative Mobile:w-full Mobile:pl-0">
           <Image

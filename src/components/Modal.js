@@ -24,7 +24,6 @@ export default function Modal() {
   }, [isOpen]);
   return (
     <div>
-      {/* Button to trigger modal */}
       <button
         onClick={openModal}
         className="
