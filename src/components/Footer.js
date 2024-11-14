@@ -19,7 +19,7 @@ export default function Footer() {
             <p className="text-[14px] mt-4 flex font-ProximaNova-Regular">
               Connect with us
               <span className="ml-12 flex Mobile:ml-6">
-                <Link  href={"https://linkedin.com/company/wellows_"} target="_blank">
+                <Link  href={"https://www.linkedin.com/company/wellows/posts/?feedView=all"} target="_blank">
                   <Image
                     src={web_assets + "icons/linkedIn.svg"}
                     width={17}
@@ -28,7 +28,7 @@ export default function Footer() {
                     alt={"linkedIn"}
                   />
                 </Link>
-                <Link  href={"https://x.com/Wellows"} target="_blank">
+                <Link  href={"https://x.com/Wellows_"} target="_blank">
                   <Image
                     src={web_assets + "icons/twiter.svg"}
                     width={17}
